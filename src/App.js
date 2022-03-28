@@ -1,10 +1,12 @@
 import React from "react";
-import { UseState } from "./components/UseState/UseState";
+//import { UseReducer } from "./components/UseReducer/UseReducer";
+//import { UseState } from "./components/UseState/UseState";
 
 const App = () => {
   return (
     <div>
-      <UseState />
+      {/* <UseState />
+      <UseReducer /> */}
     </div>
   );
 };
