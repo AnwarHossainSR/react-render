@@ -4,14 +4,14 @@ const initState = ["Bruce", "Wayne"];
 export const ArrayUseState = () => {
   const [persons, setPerson] = useState(initState);
   const handleClick = () => {
-    persons.push('Clark')
-    persons.push('Kent')
-    setPerson(persons)
+    // persons.push('Clark')
+    // persons.push('Kent')
+    // setPerson(persons)
 
-    // const newPersons = [...persons];
-    // newPersons.push("Clark");
-    // newPersons.push("Kent");
-    // setPerson(newPersons);
+    const newPersons = [...persons];
+    newPersons.push("Clark");
+    newPersons.push("Kent");
+    setPerson(newPersons);
   };
   console.log("ArrayUseState Render");
   return (
